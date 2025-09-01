@@ -1,0 +1,33 @@
+{
+  "name": "@atlas402/mesh",
+  "version": "1.0.0",
+  "description": "Service registration and configuration portal for x402 ecosystem",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "x402",
+    "registration",
+    "services",
+    "middleware",
+    "micropayments"
+  ],
+  "author": "Atlas402 Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.0.0"
+  }
+}
+

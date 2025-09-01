@@ -1,0 +1,12 @@
+node_modules
+dist
+*.log
+.env
+.DS_Store
+coverage
+__pycache__
+*.pyc
+target
+*.class
+.idea
+.vscode
